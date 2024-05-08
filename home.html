@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+   <header>
+        <nav class="container ">
+            <div>
+                <a href="#">
+                    <img class="logo" src="imgs/JD logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="list-menu">
+                <ul class="menu">
+                    <li>
+                        <a href="#main">Home</a>
+                    </li>
+                    <li>
+                        <a href="#hobbies">My Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="main" class="main-container">
+            <div class="my-pic">
+                <img class="rounded-corners-gradient-borders" src="imgs/myself_as_anime.jpg" alt="my picture">
+            </div>
+            <div class="text-content">
+                <h1>Hi there!</h1>
+                <label class="big-font">I'm <span style="color: white; font-weight: bold; text-shadow: 2px 2px 2px black;">Jerome Dalisay</span></label>
+                <br/>
+                <label class="medium-font">Currently taking a Front-end Web Development Bootcamp</label>
+                <p></p>
+            </div>
+        </div>
+        <section id="hobbies">
+            <label class="center-heading margin-bot">My Hobbies</label>
+            <!--<div class="horizontal-line"></div>-->
+            <div class="hobbies-container">
+                <div class="hobbies-content-left font-kanit">
+                    <div class="hobbies-pic"> 
+                        <img class="rounded-corners-gradient-borders-hobbies" src="imgs/watching anime in tv.gif" alt="my picture">
+                    </div>               
+                    <div class="hobbies-text-content">
+                        <label style="font-size: large;">Watching Anime</label>
+                        <p>I enjoy watching anime because it helps to relieve my stress.</p>
+                    </div>
+               </div>
+               <div class="hobbies-content-right font-kanit">
+                   <div class="hobbies-pic"> 
+                       <img class="rounded-corners-gradient-borders-hobbies" src="imgs/travelling.gif" alt="my picture">
+                   </div>               
+                   <div class="hobbies-text-content">
+                       <label style="font-size: large;">Travelling</label>
+                       <p>To unwind, my family likes to go to different places for vacations and relaxation.</p>
+                   </div>
+              </div>
+            </div>
+            <div class="hobbies-container">
+                <div class="hobbies-content-left font-kanit">
+                    <div class="hobbies-pic"> 
+                        <img class="rounded-corners-gradient-borders-hobbies" src="imgs/playing games.gif" alt="my picture">
+                    </div>               
+                    <div class="hobbies-text-content">
+                        <label style="font-size: large;">Playing games</label>
+                        <p>I enjoy playing games because it helps me relieve my stress.</p>
+                    </div>
+               </div>
+               <div class="hobbies-content-right font-kanit">
+                   <div class="hobbies-pic"> 
+                       <img class="rounded-corners-gradient-borders-hobbies" src="imgs/listening to music.gif" alt="my picture">
+                   </div>               
+                   <div class="hobbies-text-content">
+                       <label style="font-size: large;">Listening to music</label>
+                       <p>Music comforts me when I'm alone.</p>
+                   </div>
+              </div>
+            </div>
+            <div class="hobbies-container">
+                <div class="hobbies-content-left font-kanit">
+                    <div class="hobbies-pic"> 
+                        <img class="rounded-corners-gradient-borders-hobbies" src="imgs/biking.gif" alt="my picture">
+                    </div>               
+                    <div class="hobbies-text-content">
+                        <label style="font-size: large;">Biking</label>
+                        <p>Biking is my daily exercise which improves my health.</p>
+                    </div>
+               </div>
+               <div class="hobbies-content-right font-kanit">
+                   <div class="hobbies-pic"> 
+                       <img class="rounded-corners-gradient-borders-hobbies" src="imgs/eating.gif" alt="my picture">
+                   </div>               
+                   <div class="hobbies-text-content">
+                       <label style="font-size: large;">Eating</label>
+                       <p>I love to eat.</p>
+                   </div>
+              </div>
+            </div>            
+        </section>
+        <div id="contact-me">
+            <div  class="contact-me-main-container">
+                <label class="center-heading-white margin-bot">Contact Me</label>
+                <div class="contact-me-container" >
+                    <form id="contactForm" class="font-kanit">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <label class="white-font">Full name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." required>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <label class="white-font">Email address</label>
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" required>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <label class="white-font">Phone number</label>
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" required>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <label class="white-font">Message</label>
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                        </div>
+                        <button class="button" id="submitButton" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-container font-kanit">
+        <div class="center-heading-white-footer"><small>Copyright © My Portfolio 2024</small></div>
+    </footer>
+</body>
+</html>
